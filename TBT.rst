@@ -33,11 +33,11 @@ subject to 3 constraints
 	
 .. math::
 
-	g_1 = \frac{\sqrt{2} x_1 + x_2}{\sqrt{2}x_1^2 + 2x_1 x_2} P - \sigma \leq 0,
+	g_1 = \frac{\sqrt{2} x_1 + x_2}{\sqrt{2} x_1^2 + 2 x_1 x_2} P - \sigma \leq 0,
 	
-	g_2 = \frac{x_2}{\sqrt{2}x_1^2 + 2x_1 x_2} P - \sigma \leq 0,
+	g_2 = \frac{x_2}{\sqrt{2} x_1^2 + 2 x_1 x_2} P - \sigma \leq 0,
 	
-	g_3 = \frac{1}{x_1 \sqrt{2} x_2} P - \sigma \leq 0,
+	g_3 = \frac{1}{x_1 + \sqrt{2} x_2} P - \sigma \leq 0,
 
 where :math:`0 \leq x_1 \leq 1`, :math:`0 \leq x_2 \leq 1`, :math:`H = 100 cm`, :math:`P = 2 KN/cm^2`, and :math:`\sigma = 2 KN/cm^2`.
 
